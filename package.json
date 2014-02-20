@@ -1,22 +1,17 @@
 {
-  "name": "buttonset-component",
+  "name": "retrofox-buttonset",
   "description": "Buttonset component",
   "version": "0.0.3",
   "keywords": [
-    "buttonset",
-    "component"
+    "buttonset"
+  ],
+  "styles": [
+    "buttonset.css"
   ],
   "dependencies": {
-  },
-  "component": {
-    "styles": [
-      "buttonset.css"
-    ],
-    "scripts": {
-      "buttonset": "index.js"
-    }
-  },
-  "readme": "Buttonset component",
-  "_id": "buttonset-component@0.0.3",
-  "_from": "buttonset-component@0.0.3"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git"
+  }
 }

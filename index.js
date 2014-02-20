@@ -4,10 +4,10 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
-  , classes = require('classes')
-  , inherit = require('inherit')
-  , o = require('jquery');
+var Emitter = require('component-emitter')
+  , classes = require('component-classes')
+  , inherit = require('component-inherit')
+  , o = require('component-jquery');
 
 /**
  * Expose `ButtonSet`.
